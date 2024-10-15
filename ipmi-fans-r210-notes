@@ -1,0 +1,14 @@
+IMPORTANT IT MAY NOT REPORT CPU TEMP CHECK IF ITS ENABLED:
+ipmitool -I lanplus -H IDRACIP -U IDRACUSER -P IDRACPASSWORD sdr type temperature
+
+ctl + e when boot > BMC configuratiob utility
+set password + ip +  enable sensor
+
+ipmi tools on ubuntu
+https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=m63f3
+
+sources
+
+https://www.reddit.com/r/homelab/comments/at7b00/dell_software_fan_speed_controller_r710_r210_etc/
+
+https://www.reddit.com/r/homelab/comments/7xqb11/dell_fan_noise_control_silence_your_poweredge/
