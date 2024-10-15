@@ -45,6 +45,9 @@ qm set "$VMID" --serial0 socket --vga serial0
 # Convert VM to template
 qm template "$VMID"
 
+# Delete image file
+rm ./"$IMAGE_FILENAME"
+
 echo "VM $VMNAME with ID $VMID has been created and configured."
 
 # Provide troubleshooting instructions for resetting machine-id
