@@ -1,5 +1,6 @@
 #!/bin/bash
-read -p "Enter serviceuser username: " SERVICEUSER
+#read -p "Enter serviceuser username: " SERVICEUSER
+SERVICEUSER="vaktmeister"
 
 useradd -r -s /sbin/nologin --no-create-home $SERVICEUSER
 
